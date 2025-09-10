@@ -15,4 +15,3 @@ const renderPosts = (postsData) => {
     }).join('');
     postsContainer.innerHTML = postsHTML;
 }
-renderPosts(postsData);
