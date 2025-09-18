@@ -3,23 +3,23 @@ import './App.css'
 import Modal from './components/Modal'
 
 
-function openModal(){
-  setIsModalOpen(isModalOpen=true);
-}
-function closeModal(){
-  setIsModalOpen(isModalOpen=false);
-}
-
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false)
+
+
+  const openModal=()=>{
+  setIsModalOpen(true);
+}
+const closeModal=()=>{
+  setIsModalOpen(false);
+}
 
   return (
     <>
     <h1>Приложение с модальным окном</h1>
     <button onClick={openModal}>Открыть окно</button>
-  <Modal props={closeModal}>
-    <p>Это содержимое модального окна!</p>
-  </Modal>
+  {isModalOpen &&<Modal onClose={closeModal} children={"Это содержимое модального окна!"}>
+  </Modal>}
     </>
   )
 }
