@@ -1,0 +1,12 @@
+.cardsContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+.card{
+    border: 2px solid #270e0e;
+    border-radius: 5px;
+    text-align: center;
+    background-color: beige;
+    padding: 20px;
+}
