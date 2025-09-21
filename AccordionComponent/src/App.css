@@ -1,0 +1,21 @@
+.accordion-item{
+    border: 2px solid #300a0a;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    width: 15%;
+    margin: 10px;
+    padding: 10px;
+}
+.accordion-title{
+    color: #142307;
+}
+.accordion-title:hover{
+    color: #305c0a;
+}
+.accordion-content{
+    font-size: 16px;
+}
+.accordion-title.active{
+    color: #8d1313;
+    font-size: larger;
+}
