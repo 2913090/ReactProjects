@@ -4,3 +4,4 @@
 - 3 CreatingInteractiveModalWindow (HW_19_09) Сайт с модальным окном
 - 4 ProductBenefitsList (HW_20_09) Сайт с карточками
 - 5 AccordionComponent (HW_24_09) Сайт FAQ
+- 6 InteractiveShoppingList (HW_3_10) Сайт список продуктов
