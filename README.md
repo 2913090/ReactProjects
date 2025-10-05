@@ -5,3 +5,5 @@
 - 4 ProductBenefitsList (HW_20_09) Сайт с карточками
 - 5 AccordionComponent (HW_24_09) Сайт FAQ
 - 6 InteractiveShoppingList (HW_3_10) Сайт список продуктов
+- 7 InteractiveSearchFilter (HW_8_10) Сайт интерактивный поиск
+- 8 PasswordGenerator (HW_10_10) Сайт генератор паролей
