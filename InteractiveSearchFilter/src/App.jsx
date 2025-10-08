@@ -1,14 +1,12 @@
-import { useState } from 'react'
 import './App.css'
-
+import SearchFilter from './components/SearchFilter';
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      
+      <SearchFilter></SearchFilter>
     </>
   )
 }
 
-export default App
+export default App;
