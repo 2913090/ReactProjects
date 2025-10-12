@@ -7,3 +7,5 @@
 - 6 InteractiveShoppingList (HW_3_10) Сайт список продуктов
 - 7 InteractiveSearchFilter (HW_8_10) Сайт интерактивный поиск
 - 8 PasswordGenerator (HW_10_10) Сайт генератор паролей
+- 9 RecipeBookMiniApp (HW_15_10) Сайт с рецептами
+- 10 (HW_17_10)
