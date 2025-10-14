@@ -1,0 +1,12 @@
+.nav-link{
+    border: 2px solid black;
+    margin: 5px;
+    padding: 2px;
+    text-decoration: none;
+    color: black;
+}
+
+.active-link{
+    color: rgb(72, 14, 14);
+    border: 2px solid rgb(173, 30, 30);
+}
